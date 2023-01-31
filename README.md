@@ -84,5 +84,3 @@ kubectl get service my-curriculum
 ```
 
 - Access the website using a browser and the IP address from the previous step.
-
-This is a basic example of deploying a Docker container in a Kubernetes cluster on Azure. You can further customize the deployment, such as scaling the number of replicas, adding persistent storage, or configuring ingress.
