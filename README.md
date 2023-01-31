@@ -1,4 +1,3 @@
-# kubernetesStuff
 
 ## Modo imperativo de imagem no ACR
 
