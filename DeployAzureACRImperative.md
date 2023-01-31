@@ -84,5 +84,4 @@ kubectl get service my-curriculum
 
 - Access the website using a browser and the IP address from the previous step.
 
-Autoscale Pods
-az aks show --resource-group myResourceGroup --name myAKSCluster --query kubernetesVersion --output table
+Source : https://learn.microsoft.com/en-us/azure/aks/tutorial-kubernetes-app-update?tabs=azure-cli
