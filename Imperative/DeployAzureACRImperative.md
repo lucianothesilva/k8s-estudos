@@ -66,7 +66,7 @@ az aks get-credentials --name curriculum-cluster --resource-group curriculumRG
     - Use the following **`kubectl`** command to create a Kubernetes deployment:
 
 ```bash
-kubectl create deployment my-curriculum --image=curriculumcr.azurecr.io/my-curriculum:1.0
+kubectl create deployment my-curriculum --image=curriculumcr.azurecr.io/my-curriculum:v1
 ```
 
 - Expose the deployment as a Kubernetes service using the following **`kubectl`** command:

@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mycurriculum
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mycurriculum
+  template:
+    metadata:
+      labels:
+        app: mycurriculum
+    spec:
+      containers:
+      - name: mycurriculum
+        image: mycurriculum:v1
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mycurriculum
+spec:
+  selector:
+    app: mycurriculum
+  ports:
+  - name: http
+    port: 80
+    targetPort: 80
+  type: LoadBalancer
