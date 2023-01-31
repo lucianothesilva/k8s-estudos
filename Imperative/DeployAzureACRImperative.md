@@ -84,4 +84,4 @@ kubectl get service my-curriculum
 
 - Access the website using a browser and the IP address from the previous step.
 
-Source : https://learn.microsoft.com/en-us/azure/aks/tutorial-kubernetes-app-update?tabs=azure-cli
+Source : https://learn.microsoft.com/en-us/azure/aks/
